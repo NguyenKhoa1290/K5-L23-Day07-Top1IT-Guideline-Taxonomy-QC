@@ -22,17 +22,17 @@ Các điểm trên là phần tổng hợp để xác nhận, không thay thế 
 
 | Chủ đề | Khác biệt / câu hỏi từ các bản cá nhân | Ảnh gợi ý đối chiếu | Quyết định nhóm |
 |---|---|---|---|
-| Tuk-tuk | 161 tạm xếp vào `motorcycle`; 165 đề xuất lớp riêng `tuk_tuk`; 168 loại khỏi định nghĩa `motorcycle`. Nhóm chọn cách nào? | `img_004.jpg`, `img_035.jpg` | Chưa chốt |
-| Xe bán tải | 161 xếp pickup vào `truck`; 165 xếp bán tải thông thường vào `car`. Phân biệt thế nào với xe có nắp thùng cao? | `img_001.jpg`, `img_037.jpg` | Chưa chốt |
-| Xe buýt | 161 đề xuất không gán trong taxonomy hiện có; 165 đề xuất thêm `bus` và nêu phương án tạm khác nếu giữ v0. Có đưa xe buýt vào phạm vi không? | `img_009.jpg`, `img_037.jpg` | Chưa chốt |
-| Che khuất | 165 và 168 dùng ranh giới 30% / 70% theo tỷ lệ bị che; 161 đưa ra các khoảng khác. Chốt cách ước lượng, ngưỡng không chồng lấn và trường hợp không đủ bằng chứng. | Tự chọn ảnh có vật bị che | Chưa chốt |
+| Tuk-tuk | 161 tạm xếp vào `motorcycle`; 165 đề xuất lớp riêng `tuk_tuk`; 168 loại khỏi định nghĩa `motorcycle`. Nhóm chọn cách nào? | `img_004.jpg`, `img_035.jpg` | Tạm xếp là nhóm xe máy |
+| Xe bán tải | 161 xếp pickup vào `truck`; 165 xếp bán tải thông thường vào `car`. Phân biệt thế nào với xe có nắp thùng cao? | `img_001.jpg`, `img_037.jpg` | xe tải |
+| Xe buýt | 161 đề xuất không gán trong taxonomy hiện có; 165 đề xuất thêm `bus` và nêu phương án tạm khác nếu giữ v0. Có đưa xe buýt vào phạm vi không? | `img_009.jpg`, `img_037.jpg` | Xếp vào truck |
+| Che khuất | 165 và 168 dùng ranh giới 30% / 70% theo tỷ lệ bị che; 161 đưa ra các khoảng khác. Chốt cách ước lượng, ngưỡng không chồng lấn và trường hợp không đủ bằng chứng. | Tự chọn ảnh có vật bị che | Dùng 30-70 |
 | Vật không thật và vật cản | 161 và 165 loại tượng, đồ chơi và hình phản chiếu; 168 đề xuất ngoại lệ vật cản và gán mô hình xe ở `img_027`. Một vật không thật có được gán không, nếu có thì theo tiêu chí và lớp nào? | `img_027.jpg`, `img_038.jpg` | Chưa chốt |
-| Phản chiếu và hình in | Xác định ảnh trong gương, hình trên biển quảng cáo và vật thật trong cùng ảnh được xử lý ra sao. | `img_018.jpg`, `img_020.jpg` | Chưa chốt |
-| Xe chở xe | Gán xe chở và từng xe được chở thế nào? Box xe chở có tính hàng hóa hay không? | `img_002.jpg` | Chưa chốt |
-| Người trên xe | Xác định số box cho người lái, người ngồi sau và xe; quy định phạm vi box khi chúng che nhau. | `img_005.jpg`, `img_026.jpg` | Chưa chốt |
-| Ảnh nhòe và bóng ma | 168 đề cập gán cả bóng ma; nhóm cần chốt một đối tượng có bao nhiêu box và ranh giới box khi ảnh bị nhòe. | `img_014.jpg` | Chưa chốt |
-| Vật nhỏ và đám đông | Khi nào gán riêng, khi nào dùng `ignore_region`? Taxonomy hiện có `min_box_height_px = 20`; cần chốt cách xử lý từng tình huống và không thay đổi mục `rules`. | Tự chọn ảnh có vật nhỏ | Chưa chốt |
-| Ngoài taxonomy | Xe đạp, xích lô và các loại không có lớp: bỏ qua, đánh dấu vấn đề hay bổ sung lớp trước khi khóa? Không tự gán sang lớp không phù hợp. | `img_006.jpg`, `img_029.jpg`, `img_039.jpg` | Chưa chốt |
+| Phản chiếu và hình in | Xác định ảnh trong gương, hình trên biển quảng cáo và vật thật trong cùng ảnh được xử lý ra sao. | `img_018.jpg`, `img_020.jpg` | Không gán |
+| Xe chở xe | Gán xe chở và từng xe được chở thế nào? Box xe chở có tính hàng hóa hay không? | `img_002.jpg` | Chỉ gán xe chở |
+| Người trên xe | Xác định số box cho người lái, người ngồi sau và xe; quy định phạm vi box khi chúng che nhau. | `img_005.jpg`, `img_026.jpg` | Giống quy tắc 30-70 |
+| Ảnh nhòe và bóng ma | 168 đề cập gán cả bóng ma; nhóm cần chốt một đối tượng có bao nhiêu box và ranh giới box khi ảnh bị nhòe. | `img_014.jpg` | Gán hết vùng nhòe |
+| Vật nhỏ và đám đông | Khi nào gán riêng, khi nào dùng `ignore_region`? Taxonomy hiện có `min_box_height_px = 20`; cần chốt cách xử lý từng tình huống và không thay đổi mục `rules`. | Tự chọn ảnh có vật nhỏ | Không gán |
+| Ngoài taxonomy | Xe đạp, xích lô và các loại không có lớp: bỏ qua, đánh dấu vấn đề hay bổ sung lớp trước khi khóa? Không tự gán sang lớp không phù hợp. | `img_006.jpg`, `img_029.jpg`, `img_039.jpg` | không đánh |
 
 ## 4. Kết quả cần có sau cuộc họp
 
