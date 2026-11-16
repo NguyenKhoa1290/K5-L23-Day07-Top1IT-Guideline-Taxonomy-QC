@@ -26,7 +26,7 @@ Các điểm trên là phần tổng hợp để xác nhận, không thay thế 
 | Xe bán tải | 161 xếp pickup vào `truck`; 165 xếp bán tải thông thường vào `car`. Phân biệt thế nào với xe có nắp thùng cao? | `img_001.jpg`, `img_037.jpg` | xe tải |
 | Xe buýt | 161 đề xuất không gán trong taxonomy hiện có; 165 đề xuất thêm `bus` và nêu phương án tạm khác nếu giữ v0. Có đưa xe buýt vào phạm vi không? | `img_009.jpg`, `img_037.jpg` | Xếp vào truck |
 | Che khuất | 165 và 168 dùng ranh giới 30% / 70% theo tỷ lệ bị che; 161 đưa ra các khoảng khác. Chốt cách ước lượng, ngưỡng không chồng lấn và trường hợp không đủ bằng chứng. | Tự chọn ảnh có vật bị che | Dùng 30-70 |
-| Vật không thật và vật cản | 161 và 165 loại tượng, đồ chơi và hình phản chiếu; 168 đề xuất ngoại lệ vật cản và gán mô hình xe ở `img_027`. Một vật không thật có được gán không, nếu có thì theo tiêu chí và lớp nào? | `img_027.jpg`, `img_038.jpg` | Chưa chốt |
+| Vật không thật và vật cản | 161 và 165 loại tượng, đồ chơi và hình phản chiếu; 168 đề xuất ngoại lệ vật cản và gán mô hình xe ở `img_027`. Một vật không thật có được gán không, nếu có thì theo tiêu chí và lớp nào? | `img_027.jpg`, `img_038.jpg` | Không gán (áp dụng R-05) |
 | Phản chiếu và hình in | Xác định ảnh trong gương, hình trên biển quảng cáo và vật thật trong cùng ảnh được xử lý ra sao. | `img_018.jpg`, `img_020.jpg` | Không gán |
 | Xe chở xe | Gán xe chở và từng xe được chở thế nào? Box xe chở có tính hàng hóa hay không? | `img_002.jpg` | Chỉ gán xe chở |
 | Người trên xe | Xác định số box cho người lái, người ngồi sau và xe; quy định phạm vi box khi chúng che nhau. | `img_005.jpg`, `img_026.jpg` | Giống quy tắc 30-70 |
