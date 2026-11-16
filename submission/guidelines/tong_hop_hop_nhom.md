@@ -1,4 +1,4 @@
-﻿# Tổng hợp guideline cá nhân — tài liệu họp nhóm
+# Tổng hợp guideline cá nhân — tài liệu họp nhóm
 
 > Tài liệu tổng hợp các bản cá nhân 161, 165 và 168 để chuẩn bị họp. Đây chưa phải guideline v1.0 đã thống nhất; mọi mục cần quyết định phải do nhóm chốt. Đối chiếu lại ảnh gốc khi thảo luận.
 
