@@ -1,10 +1,13 @@
 # Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Top1IT
 - Mã thành viên (ba chữ số):
-- Người điều phối:
-- Người review bản cuối:
-- Commit chốt bài (điền ở kênh nộp sau khi commit):
+    + Phạm Văn Hùng: 161
+    + Nguyễn Đăng Khoa: 168
+    + Phan Thanh Hào: 165
+- Người điều phối: Nguyễn Đăng Khoa
+- Người review bản cuối: Phạm Văn Hùng
+- Commit chốt bài (điền ở kênh nộp sau khi commit): Nguyễn Đăng Khoa
 
 ## Kết quả tóm tắt (điền cuối bài)
 
